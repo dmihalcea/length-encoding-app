@@ -17,9 +17,8 @@ public class Main {
 
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter your test:");
-    String keyboardInput = sc.nextLine();
+    LengthEncoder le5 = new LengthEncoder(sc.nextLine());
 
-    LengthEncoder le5 = new LengthEncoder(keyboardInput);
     System.out.println(le5.encode());
 
   }
